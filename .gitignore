@@ -1,4 +1,4 @@
-# Logs
+ # Logs
 logs
 *.log
 npm-debug.log*
@@ -7,20 +7,32 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local env files
+.env
+.env.*.local
 *.local
 
-# Editor directories and files
-.vscode/*
+# Editor-specific files
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+
+# Visual Studio related
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# Swp/swo/swn (swap files from editors like Vim)
 *.sw?
 
-.env
+# Backup files (e.g., README.md~)
+*~
