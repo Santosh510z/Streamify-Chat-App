@@ -1,4 +1,4 @@
- {
+{
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
-    "@types/react": "^18.2.76", 
-    "@types/react-dom": "^18.2.24",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.24",
